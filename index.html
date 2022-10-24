@@ -1,2 +1,225 @@
-<h1>Mi Portfolio</h1>
-<p>Modificacion del repositorio remoto</p>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5078f690c9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-black">
+      
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/APLogo-20-20.png"
+            alt="Logo Argentina programa"
+            width="150"
+            height="100 letra-blanca"
+          />
+        </a>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+            <a
+              href="https://www.linkedin.com/in/carlos-santiago-reina-/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2x text-white"></i
+            ></a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="https://web.facebook.com/carlossantiagoreina/"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook fa-2x text-white"></i
+            ></a>
+          </li>
+          <li class="list-group-item">
+            <a
+              href="https://www.instagram.com/carlos_santiago_reina/"
+              target="_blank"
+              ><i class="fa-brands fa-square-instagram fa-2x text-white"></i
+            ></a>
+          </li>
+          <li class="list-group-item">
+            <!-- Button trigger modal -->
+            <!-- Open login -->
+            <i
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+              class="fa-solid fa-user fa-2x text-white"
+            ></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <!--banner-->
+    <section class="banner">
+      <img
+        src="./img/banner.jpg"
+        alt="imagen de banner abstracto"
+        class="w-100 img-fluid"
+      />
+    </section>
+
+
+
+
+
+    <!--presentacion acerca de mi-->
+    <section class="presentacion mt-1">
+      <!--contenedor de foto y texto-->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <!--contenedor foto perfil-->
+            <img
+              src="./img/IMG-foto rostro.jpg"
+              alt="imagen rostro"
+              class="rounded-circle img-fluid perfil"
+            />
+          </div>
+          <div class="col-10 pt-1">
+            <!--contenedor texto perfil-->
+            <h2>
+              ACERCA DE MI
+            </h2>
+            <h3>
+              Durante mi desarrollo trabaje en ventas y atención al cliente, actualmente me encuentro en el area de trabajo de campo y organizacion de personal en el Cuerpo de Bomberos de la Ciudad. Soy entusiasta y siempre dispuesto a aprender y dar lo mejor de mi. 
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--experiencia-->
+    <section class="experiencia mt-5">
+      <h2 class="text-center"><span>EXPERIENCIA</span></h2>
+        <div class="container text-center">
+          <div class="row">
+          <div class="col-12 mt-5">
+          
+       
+            <h3>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+              optio praesentium ducimus, perferendis ad unde ipsa dicta dolorem
+              soluta, quidem rerum repudiandae molestiae. Provident rem
+              voluptatibus, et itaque id sint?
+            </h3>
+          </div>
+        </div>
+      
+    </section>
+<!--Educacion-->
+<section class="presentacion mt-1">
+  <!--contenedor de foto y texto-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-2">
+        <!--contenedor foto perfil-->
+        <img
+          src="./img/IMG-foto rostro.jpg"
+          alt="imagen rostro"
+          class="rounded-circle img-fluid perfil"
+        />
+      </div>
+      <div class="col-10 pt-5">
+        <!--contenedor texto perfil-->
+        <h2>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+          optio praesentium ducimus, perferendis ad unde ipsa dicta dolorem
+          soluta, quidem rerum repudiandae molestiae. Provident rem
+          voluptatibus, et itaque id sint?
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Login -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Inicio</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Contraseña</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="submit"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Ingresar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

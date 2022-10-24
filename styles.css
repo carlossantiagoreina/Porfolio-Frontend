@@ -1,0 +1,28 @@
+.bg-black{
+    background-color: #000;
+}
+.letra-blanca{
+    filter: invert(.1);
+    -webkit-filter: invert(.1); 
+    -moz-filter: invert(.1)
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+.fa-brands.fa-linkedin.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color: #114bc9 !important;
+}
+.fa-brands.fa-square-facebook.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color: #7c94c7 !important;
+}
+.fa-brands.fa-square-instagram.fa-2x:hover{
+    --bs-text-opacity: 1;
+    color: #c96a11 !important;
+}
+.fa-solid.fa-user.fa-2x:hover{
+    --bs-text-opacity:er 1;
+    color: #08a850 !important;
+}
+
