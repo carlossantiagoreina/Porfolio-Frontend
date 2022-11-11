@@ -33,7 +33,7 @@
             height="100 letra-blanca"
           />
         </a>
-        <ul class="list-group list-group-horizontal">
+        <ul class="list-group list-group-horizontal"> <!--lista de redes sociales-->
           <li class="list-group-item">
             <a
               href="https://www.linkedin.com/in/carlos-santiago-reina-/"
@@ -66,56 +66,49 @@
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> <!--fin de barra de navegacion-->
 
-
-
-    <!--banner-->
-    <section class="banner">
-      <img
-        src="./img/banner.jpg"
-        alt="imagen de banner abstracto"
-        class="w-100 img-fluid"
-      />
-    </section>
-
-
-
-
-
-    <!--presentacion acerca de mi-->
-    <section class="presentacion mt-1">
-      <!--contenedor de foto y texto-->
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-2">
-            <!--contenedor foto perfil-->
-            <img
-              src="./img/IMG-foto rostro.jpg"
-              alt="imagen rostro"
-              class="rounded-circle img-fluid perfil"
-            />
-          </div>
-          <div class="col-10 pt-1">
-            <!--contenedor texto perfil-->
-            <h2>
-              ACERCA DE MI
-            </h2>
-            <h3>
-              Durante mi desarrollo trabaje en ventas y atención al cliente, actualmente me encuentro en el area de trabajo de campo y organizacion de personal en el Cuerpo de Bomberos de la Ciudad. Soy entusiasta y siempre dispuesto a aprender y dar lo mejor de mi. 
-            </h2>
-          </div>
+  
+<!--carusel-->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="./img/cuantos-lenguajes-de-programacion-existen-1024x576.jpg" class="d-block w-100" alt="PRIMERAFOTO">
         </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="./img/Algoritmos_de_programacion.jpg" class="d-block w-100" alt="SEGUNDAFOTO">
+        </div>
+        
       </div>
-    </section>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div> <!--fin de carusel-->
+
+  
+   
+<!--foto de perfil-->
+    <div class="row">
+      <div class="col-2">
+
+    <img src="./img/IMG-foto rostro.jpg"
+    alt="imagen rostro"
+    class="rounded-circle w-25"/>
+      </div>
+	</div> <!--fin de foto de perfil-->
 
 
-<!--experiencia-->
-    <section class="experiencia mt-5">
-      <h2 class="text-center"><span>EXPERIENCIA</span></h2>
+  <!--experiencia-->
+    <section class="experiencia mt-6">
+      <h2 class="text-center">EXPERIENCIA</h2>
         <div class="container text-center">
           <div class="row">
-          <div class="col-12 mt-5"> 
+          <div class="col-12 mt-3"> 
                    <h3>
               En cuanto a mi experiencia laboral cabe destacar que me desarrollé en ventas, atención al cliente y los ultimos 10 años estuve desarrollandome en el area administrativa de Bomberos donde mis tareas incluyen manejos de tecnologias como word, excel, sistemas informaticos de INTRANET de Bomberos de la Ciudad, generación de informes de profesionales y organizacion de personal.
             </h3>
@@ -124,13 +117,15 @@
       
     </section>
 
+    <br>
+    <br>
 
 <!--Educacion-->
-<section class="presentacion mt-5">
-  <h2 class="text-center"><span>EDUCACIÓN</span></h2>
+<section class="presentacion mt-6">
+  <h2 class="text-center">EDUCACIÓN</h2>
   <div class="container text-center">
     <div class="row">
-      <div class="col-12 mt-5">
+      <div class="col-12 mt-3">
        
          
         <h3>
@@ -141,6 +136,48 @@
     
   </div>
 </section>
+<br>
+<br>
+
+
+<!--skill-->
+<h3>HARD AND SOFT SKILL</h3>
+<BR>
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" aria-label="Success example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<h4>HTML-CSS-JS</h4>
+<br> 
+<div class="progress">
+  <div class="progress-bar bg-info" role="progressbar" aria-label="Info example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+  <h4>ANGULAR-JAVA</h4>
+  <br>
+<div class="progress">
+  <div class="progress-bar bg-warning" role="progressbar" aria-label="Warning example" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<h4>COMUNICACION Y COMPAÑERISMO</h4>
+<br>
+<div class="progress">
+  <div class="progress-bar bg-danger" role="progressbar" aria-label="Danger example" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<h4>PROACTIVIDAD</h4>
+<br><br>
+
+
+
+<div class="card" style="width: 40rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">CURSOS</h5>
+    <p class="card-text">Curso HTML-CSS-JS en UDEMY, Curso de introsuccion a Redes Informaticas en PLATZI, curso Programador Web Full Stack en Argentina Programa </p>
+   
+  </div>
+</div>
+
+
+
+<!--fin skill-->
 
 
 
@@ -200,7 +237,7 @@
     </div>
 
 
-   
+
 
 
 

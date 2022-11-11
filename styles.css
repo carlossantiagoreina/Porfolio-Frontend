@@ -27,6 +27,22 @@
 }
 
 .container.text-center{
-    background-color: 	#d3d0d0;
+    background-color: 	#e5eee9;
+    margin-left: 7rem;
+    
+   
 }
 
+
+
+.rounded-circle.w-25{
+    position:absolute;
+    margin-top: -13rem;
+    margin-left: 5rem;
+    width: 10rem !important;
+    z-index: 0;
+}
+
+.progress {
+    width: 75rem;
+}
